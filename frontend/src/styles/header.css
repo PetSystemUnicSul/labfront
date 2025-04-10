@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 10px 20px;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.header-btn {
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-size: 1.125rem;
+  font-weight: 700;
+  border-radius: var(--border-radius-lg);
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 120px;
+}

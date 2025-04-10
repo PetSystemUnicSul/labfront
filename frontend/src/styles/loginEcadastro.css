@@ -1,0 +1,57 @@
+.divLoginCadastro {
+    background: linear-gradient(-45deg, var(--primary-color), var(--white));
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.divLoginCadastro > form {
+    max-width: 360px;
+    width: 100%;
+    padding: 24px;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+
+    margin: 5px auto 0px;
+    border-radius: var(--border-radius-lg);
+}
+
+.form-title {
+    width: 100%;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    text-align: center;
+   
+}
+
+.buttonCadastro, .buttonLogin {
+    width: 100%;
+    padding: 10px;
+    margin: 16px auto;
+   
+    border-radius: var(--border-radius-md);
+    border: none;
+
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divLoginCadastro > p {
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: 4px;
+}
+
+.links {
+    color: var(--primary-color);
+}

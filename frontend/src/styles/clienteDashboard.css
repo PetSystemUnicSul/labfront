@@ -1,0 +1,72 @@
+.mainDashboard {
+    padding: 4%;
+    height: 100vh;
+    
+}
+
+.tituloEbuttonAdicCliente {
+    margin: 0px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tituloEbuttonAdicCliente > h1 {
+    font-family: var(--font-family-balootwo);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.buttonAdicionar {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    border-radius: var(--border-radius-md);
+    padding: 6px 15px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.searchEfiltro {
+    display:  flex;
+    gap: 30px;
+    align-items: start;
+}
+
+.campoSearch {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.iconeSearch {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.campoFiltro {
+    display: flex;
+    gap: 10px;
+}
+
+.filtroClientes {
+    width: 100%;
+    min-width: 100px;
+    padding: 10px 16px;
+    border-radius: var(--border-radius-sm);
+    border: 1px solid var(--gray-medium);
+    background-color: var(--input-bg);
+    outline: none;
+    margin: 0px 0px 15px;
+    cursor: pointer;
+}
+

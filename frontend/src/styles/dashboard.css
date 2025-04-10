@@ -1,0 +1,7 @@
+.dashboardContainer{
+    display: flex;
+}
+
+.contentDashboard {
+    width: 100%;
+}
